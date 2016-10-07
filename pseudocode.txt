@@ -1,0 +1,13 @@
+declare the temperature variable 
+get input from user
+set the temperature variable to the user input
+user a series of if / else if statements to compare the temperature to season cut-offs:
+	winter 0–5 C , blue
+	spring 6–14 C , pink
+	summer 21–40 C , green
+	fall 15-20  C , orange
+
+change the background based on the season
+convert the celsius temperature variable to fahrenheit (multiple by 1.8 and add 32)
+display the fahrenheit temperature in the browser
+
