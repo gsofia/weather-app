@@ -6,6 +6,8 @@ body, input, button {
 
 body {
 	background-color: #c5c8cc;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 button {

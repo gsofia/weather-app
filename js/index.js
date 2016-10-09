@@ -7,23 +7,23 @@ document.getElementById("submit").onclick = function() {
 	document.getElementById("displayTemp").innerHTML = fTemp+" &#8457";
 
 if (userTemp <= 5) {
-		document.body.style.backgroundColor = "#a4badd";
+		document.body.style.backgroundImage = "url(images/winter.jpg)";
 	} 
 
 	else if (userTemp >= 6 && userTemp <= 14) {
-		document.body.style.backgroundColor = "#efa7d0";
+		document.body.style.backgroundImage = "url(images/spring.jpg)";
 	} 
 
 	else if (userTemp >= 21 && userTemp <= 40) {
-		document.body.style.backgroundColor = "#59ce4c";
+		document.body.style.backgroundImage = "url(images/summer.jpg)";
 	}  
 
 	else if (userTemp >= 15 && userTemp <= 20) {
-		document.body.style.backgroundColor = "#ea7f15";
+		document.body.style.backgroundImage = "url(images/fall.jpg)";
 	}  
 
 	else  {
-		document.body.style.backgroundColor = "#ff0202";
+		document.body.style.backgroundImage = "url(images/eggs.jpg)";
 	}
 
 }
